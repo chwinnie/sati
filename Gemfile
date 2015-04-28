@@ -8,9 +8,6 @@ gem 'rails', '4.2.0'
 group :production do
 	gem 'pg'
 end
-group :development do
-	gem 'sqlite3'
-end
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
@@ -49,6 +46,9 @@ gem 'omniauth-google-oauth2'
 gem 'json'
 
 group :development, :test do
+  #dn
+  gem 'sqlite3'
+
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
 
